@@ -1,0 +1,33 @@
+4层板, 有一个1.0mm间距的BGA.
+
+-----------------------------------------
+Gerber文件:
+
+4:5 毫米(公制)单位, 省略前导零, 绝对坐标.
+
+main-Edge_Cuts.gbr 	边框, 外形
+
+main-F_SilkS.gbr	顶层丝印
+main-F_Mask.gbr		顶层阻焊
+main-F_Cu.gbr		顶层铜	 1
+main-In1_Cu.gbr		第二层铜 2
+main-In2_Cu.gbr		第三层铜 3
+main-B_Cu.gbr		底层铜	 4
+main-B_Mask.gbr		底层阻焊
+main-B_SilkS.gbr	底层丝印
+-----------------------------------------
+钻孔文件:
+
+3:3 毫米(公制)单位, 省略后导零, 绝对坐标.
+
+main.drl		沉铜(PTH)钻孔
+main-NPTH.drl		非沉铜(NPTH)钻孔
+-----------------------------------------
+钻孔补充信息:
+
+4:5 毫米(公制)单位, 省略前导零, 绝对坐标.
+
+main-drl_map.gbr	沉铜(PTH)钻孔map文件
+main-NPTH-drl_map.gbr 	非沉铜(NPTH)钻孔map文件
+-----------------------------------------
+EOF

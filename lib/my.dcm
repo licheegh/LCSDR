@@ -1,0 +1,60 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 25_Serial_Flash_8_Pin
+D 25 series SPI NOR flash
+K SPI Flash
+$ENDCMP
+#
+$CMP 4-Pin_Oscillator
+D 4 pin oscillators TCXO XO
+K TCXO XO
+$ENDCMP
+#
+$CMP AD92x8
+D 14(12)-Bit, 20 MSPS/40 MSPS/65 MSPS Dual ADC
+K ADC
+$ENDCMP
+#
+$CMP DUAL_POT_WITH_SHIELD
+D Potentionmetre
+K R
+$ENDCMP
+#
+$CMP General_SOT223_LDO
+D General SOT223 LDO
+K General SOT223 LDO
+$ENDCMP
+#
+$CMP JACK_TRS_5PINS
+D audio jack TRS 5 pins
+K audio jack connector TRS
+$ENDCMP
+#
+$CMP LMR10515-SOT23
+D SIMPLE SWITCHER 5.5Vin 1.5A Buck Reg in SOT-23 and LLP
+K Buck DC-DC
+$ENDCMP
+#
+$CMP MCP3202
+D 2 inputs AD Converter (serial output), 
+K ADC CAN
+F http://www.ti.com/lit/ds/symlink/adc0831-n.pdf
+$ENDCMP
+#
+$CMP MCP48x2
+D Dual 12-bit Digital to Analog Converter, SPI Interface, PDIP-14
+K Dual DAC 1ch 12bit SPI
+F http://ww1.microchip.com/downloads/en/devicedoc/21897a.pdf
+$ENDCMP
+#
+$CMP TDA2822M
+D DUAL LOW-VOLTAGE POWER AMPLIFIER
+K AMPLIFIER
+$ENDCMP
+#
+$CMP UDA1334x
+D Low power audio DAC
+K audio DAC
+$ENDCMP
+#
+#End Doc Library

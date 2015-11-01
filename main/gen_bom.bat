@@ -1,0 +1,1 @@
+python bom_csv_grouped_by_value.py main.xml main.csv
