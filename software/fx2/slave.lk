@@ -1,0 +1,28 @@
+-muwx
+-i slave.hex
+-M
+-Y
+-b HOME = 0x0000
+-b ISEG = 0x0000
+-b BSEG = 0x0000
+-k C:\Program Files\SDCC\bin\..\lib\small
+-l mcs51
+-l libsdcc
+-l libint
+-l liblong
+-l libfloat
+fw.rel
+slave.rel
+delay.rel
+delayms.rel
+discon.rel
+dscr.rel
+USBJmpTb.rel
+EZRegs.rel
+get_strd.rel
+i2c.rel
+i2c_rw.rel
+resume.rel
+susp.rel
+
+-e

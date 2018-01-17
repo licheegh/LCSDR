@@ -1,0 +1,1 @@
+gcc sam3u_benchmark.c `pkg-config --libs --cflags libusb-1.0`
